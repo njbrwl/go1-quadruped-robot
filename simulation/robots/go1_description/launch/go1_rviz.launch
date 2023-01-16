@@ -6,10 +6,10 @@
             DEBUG:=$(arg user_debug)"/>
 
     <!-- for higher robot_state_publisher average rate-->
-    <!-- <param name="rate" value="1000"/> -->
+    <param name="rate" value="1000"/>
 
     <!-- send fake joint values -->
-    <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher">
+    <node pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" name="joint_state_publisher_gui">
         <param name="use_gui" value="TRUE"/>
     </node>
 

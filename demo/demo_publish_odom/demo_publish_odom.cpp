@@ -62,6 +62,7 @@ int main(int argc, char **argv)
     std::cout << "---------Ros Module Init finished---------" << std::endl;
 
     // create the quadruped robot.
+    std::cout << "Creating robot: " << robotName << std::endl;
     qrRobot *quadruped = new qrRobotSim(nh, robotName);
 
     // add an odometry estimator

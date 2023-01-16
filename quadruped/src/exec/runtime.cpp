@@ -29,7 +29,7 @@ qrLocomotionController *setUpController(qrRobot *quadruped, std::string homeDir,
     qrGaitGenerator *gaitGenerator;
     bool isSim;
     nh.getParam("isSim", isSim);
-    std::string prefix = isSim ? "sim" : "real";
+    std::string prefix = "sim";
     gaitGenerator = new qrGaitGenerator(quadruped, homeDir + "/" + prefix + "_config/openloop_gait_generator.yaml");
                                                                      
     std::cout << "init gaitGenerator finish\n" << std::endl;

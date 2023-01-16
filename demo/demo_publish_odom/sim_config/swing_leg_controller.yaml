@@ -1,4 +1,4 @@
-name: a1_sim
+name: go1_sim
 swing_leg_params:
   foot_in_world: [ [ 0.185, 0.185, -0.175, -0.175 ],
                    [ -0.145, 0.145, -0.145, 0.145 ],

@@ -1,4 +1,4 @@
-name: a1_sim
+name: go1_sim
 
 speed_update_mode: 0 # const twist
 const_twist:

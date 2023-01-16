@@ -1,4 +1,4 @@
-name: a1_sim
+name: go1_sim
 stance_leg_params:
     force_dim: 3
     velocity:
